@@ -1,0 +1,3 @@
+import { Property } from "@/types/domain/property";
+
+export type PropertyForm = Pick<Property, 'status' | 'title' | 'description' | 'propertyType' | 'price' | 'priceFIAT' | 'expenses' | 'expensesFIAT' | 'operation' | 'financing' | 'rooms' | 'bedrooms' | 'bathrooms' | 'garages' | 'surface' | 'services' | 'condition' | 'age' | 'availabilityType' | 'availabilityDate' | 'address' | 'mapLocation' | 'country' | 'province' | 'city' | 'neighborhood' | 'multimedia'>
