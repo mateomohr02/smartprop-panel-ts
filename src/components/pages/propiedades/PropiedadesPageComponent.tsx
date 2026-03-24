@@ -3,7 +3,7 @@ import { PropiedadesTable } from "./PropiedadesTable";
 import { Button } from "@/components/ui/button";
 
 const PropiedadesPageComponent = () => {
-
+  
   return (
     <div className="flex flex-col gap-2">
       <div className="flex flex-row gap-2">

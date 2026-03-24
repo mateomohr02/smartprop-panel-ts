@@ -1,3 +1,4 @@
+import { logoutAction } from "@/modules/auth/actions/logout.action";
 import { Button } from "../../ui/button";
 import LinkButton from "./LinkButton";
 import { ThemeButton } from "./ThemeButton";
@@ -24,7 +25,7 @@ const AppSideBar = () => {
         <Button variant="sidebar" size="sidebar">
           <LinkButton linkTo="/facturacion" text="Facturación" />
         </Button>
-        <Button variant="sidebar" size="sidebar">
+        <Button variant="sidebar" size="sidebar" onClick={logoutAction}>
           Cerrar Sesión
         </Button>
       </div>
